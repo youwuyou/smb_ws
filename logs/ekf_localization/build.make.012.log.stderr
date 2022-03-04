@@ -1,9 +1,0 @@
-[01m[K/home/youwuyou/Workspaces/smb_ws/src/ekf_localization/src/EKF_Localization_node.cpp:[m[K In member function ‘[01m[Kvoid ekf_localization::EKF_Localization::scanCallback(const ConstPtr&)[m[K’:
-[01m[K/home/youwuyou/Workspaces/smb_ws/src/ekf_localization/src/EKF_Localization_node.cpp:57:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__normal_iterator<const float*, std::vector<float> >[m[K’ to ‘[01m[Kfloat_t*[m[K’ {aka ‘[01m[Kfloat*[m[K’} in initialization
-   57 |     float_t* min = [01;31m[Kstd::min_element(std::begin(msg->ranges), std::end(msg->ranges))[m[K;
-      |                    [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-      |                                    [01;31m[K|[m[K
-      |                                    [01;31m[K__gnu_cxx::__normal_iterator<const float*, std::vector<float> >[m[K
-make[2]: *** [CMakeFiles/ekf_localization_node.dir/build.make:76: CMakeFiles/ekf_localization_node.dir/src/EKF_Localization_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/ekf_localization_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

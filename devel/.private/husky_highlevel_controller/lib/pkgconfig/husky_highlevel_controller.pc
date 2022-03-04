@@ -1,8 +1,0 @@
-prefix=/home/youwuyou/Workspaces/smb_ws/devel/.private/husky_highlevel_controller
-
-Name: husky_highlevel_controller
-Description: Description of husky_highlevel_controller
-Version: 0.1.1
-Cflags: -I/home/youwuyou/Workspaces/smb_ws/src/ros_practise/include
-Libs: -L${prefix}/lib 
-Requires: roscpp sensor_msgs

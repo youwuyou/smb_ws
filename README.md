@@ -1,8 +1,18 @@
 # 151-0662-00L - Programming for Robotics - Introduction to ROS
 [:link:](https://rsl.ethz.ch/education-students/lectures/ros.html)
+
+
 [:video_camera:](https://www.youtube.com/watch?v=0BxVPCInS3M&list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP)
 
+
 :information_source: An introductory class to ROS at ETH Zürich
+
+### Important
+i).   Build the packages using `catkin build`
+ii).  Each time sourcing using `source devel/setup.bash`
+iii). Launch a node using `roslaunch <package> <launchfile>`
+iv).  Visualization of data using `rosrun rqt_multiplot rqt_multiplot`
+v).   Configurations of the rviz and gazebo can be customized
 
 ## Exercise 1
 - ROS architecture
@@ -41,14 +51,11 @@
 ## Exercise 5
 - Service calls
 
-### Commands for motion control using service
-Use the following commands during the simulation...
+*Commands for motion control using service*
+_Use the following commands during the simulation..._
 
-Option 1:
-'rosservice call /start_stop "data: false'
+Option 1: Make the smb roboter move
+`rosservice call /start_stop "data: false"`
 
-
-'rosservice call /start_stop "data: true'
-
-
-### enable the obstacle detection => not moving when obstacle is ahead of us
+Option 2: Stop the smb roboter
+`rosservice call /start_stop "data: true"`

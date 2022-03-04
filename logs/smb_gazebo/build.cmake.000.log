@@ -104,7 +104,6 @@ Not searching for unused variables given on the command line.
 [36m--[0m Looking for ignition-math6 -- found version 6.9.2
 [36m--[0m Looking for ignition-msgs5 -- found version 5.8.1
 [36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread
-/opt/ros/noetic/include/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp/usr/include
 [36m--[0m Configuring done
 [36m--[0m Generating done
 [36m--[0m Build files have been written to: /home/youwuyou/Workspaces/smb_ws/build/smb_gazebo
