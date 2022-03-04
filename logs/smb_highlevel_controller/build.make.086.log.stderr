@@ -1,0 +1,7 @@
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K In member function ‘[01m[Kvoid smb_highlevel_controller::SmbHighlevelController::scanCallback(const ConstPtr&)[m[K’:
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:74:31:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kfloat[m[K’)
+   74 |     cmd_vel_msg.angular.z = * [01;31m[Kpid_p[m[K;  // going towards the negative y-direction
+      |                               [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,3 @@
+topic: /scan
+queue_size: 10 # some default value
+pid_p: 0.5

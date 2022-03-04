@@ -1,0 +1,10 @@
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K In function ‘[01m[Kvoid smb_highlevel_controller::callback(const ConstPtr&)[m[K’:
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:56:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kranges[m[K’
+   56 |     float_t* min = std::min_element(std::begin(msg->[01;31m[Kranges[m[K), std::end(msg->ranges));
+      |                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:56:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct std_msgs::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kranges[m[K’
+   56 |     float_t* min = std::min_element(std::begin(msg->ranges), std::end(msg->[01;31m[Kranges[m[K));
+      |                                                                            [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

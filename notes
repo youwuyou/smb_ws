@@ -1,0 +1,8 @@
+# during the simulation
+rosservice call /start_stop "data: false"
+
+# restart
+rosservice call /start_stop "data: true"
+
+
+# enable the obstacle detection => not moving when obstacle is ahead of us

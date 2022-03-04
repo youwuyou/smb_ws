@@ -1,0 +1,8 @@
+prefix=/home/youwuyou/Workspaces/smb_ws/install
+
+Name: ekf_localization
+Description: Description of ekf_localization
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs geometry_msgs nav_msgs

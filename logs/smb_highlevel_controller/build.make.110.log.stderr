@@ -1,0 +1,13 @@
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K In member function ‘[01m[Kvoid smb_highlevel_controller::SmbHighlevelController::publishMarker(int, int, int)[m[K’:
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:102:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+  102 |   marker.pose.position.x = x * [01;31m[K;[m[K
+      |                                [01;31m[K^[m[K
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:103:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+  103 |   marker.pose.position.y = y * [01;31m[K;[m[K
+      |                                [01;31m[K^[m[K
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:104:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+  104 |   marker.pose.position.z = z * [01;31m[K;[m[K
+      |                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

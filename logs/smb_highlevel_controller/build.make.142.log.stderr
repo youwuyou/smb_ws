@@ -1,0 +1,13 @@
+In file included from [01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:2[m[K:
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:55:43:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+   55 |  void start_stop_Callback(const std_msgs::[01;31m[KBool[m[K trigger);
+      |                                           [01;31m[K^~~~[m[K
+In file included from [01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:55:43:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+   55 |  void start_stop_Callback(const std_msgs::[01;31m[KBool[m[K trigger);
+      |                                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:63: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

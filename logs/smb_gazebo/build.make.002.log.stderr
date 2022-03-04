@@ -1,0 +1,7 @@
+[01m[K/home/youwuyou/Workspaces/smb_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ktf/tf.h: No such file or directory
+   19 | #include [01;31m[K<tf/tf.h>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/odometry_source_plugin.dir/build.make:63: CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:275: CMakeFiles/odometry_source_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
