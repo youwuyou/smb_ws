@@ -1,8 +1,8 @@
 # 151-0662-00L - Programming for Robotics - Introduction to ROS
-[:link:](https://rsl.ethz.ch/education-students/lectures/ros.html)
+[:link: Course Website](https://rsl.ethz.ch/education-students/lectures/ros.html)
 
 
-[:video_camera:](https://www.youtube.com/watch?v=0BxVPCInS3M&list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP)
+[:video_camera: YouTube Videos from previous years](https://www.youtube.com/watch?v=0BxVPCInS3M&list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP)
 
 
 :information_source: An introductory class to ROS at ETH Zürich
