@@ -9,9 +9,13 @@
 
 ### Important
 i).   Build the packages using `catkin build`
+
 ii).  Each time sourcing using `source devel/setup.bash`
+
 iii). Launch a node using `roslaunch <package> <launchfile>`
+
 iv).  Visualization of data using `rosrun rqt_multiplot rqt_multiplot`
+
 v).   Configurations of the rviz and gazebo can be customized
 
 ## Exercise 1
