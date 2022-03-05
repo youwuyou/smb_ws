@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launching the smb_gazebo package with the football field background -->
+  <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+    <arg name="world_file" default="$(find smb_highlevel_controller)/worlds/singlePillar.world"/>
+    <arg name="laser_enabled" value = "true"/>
+  </include>
+
+
+
+
+  <!-- Launching the integrated keyboard -->
+  <!-- adapted for exercise 3 - removed the keyboard -->
+  <!-- <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen"/> -->
+
+  <!-- Loading the parameters defined in the YAML file -->
+  <node pkg="smb_highlevel_controller" type="smb_highlevel_controller" name="smb_highlevel_controller" output="screen">
+    <rosparam file="$(find smb_highlevel_controller)/config/smb_highlevel_controller.yaml" command="load"/>
+    <rosparam file="$(find smb_highlevel_controller)/config/pointcloud_to_laserscan.yaml" command="load"/>
+    <!-- <rosparam file="$(find smb_highlevel_controller)/config/config.yaml" command="load"/> -->
+  </node>
+
+
+  <!-- Launching the visualizer -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find smb_highlevel_controller)/rviz/default.rviz"/>
+
+  <node name = "emergency_stop_server" pkg="smb_highlevel_controller" type="smb_highlevel_controller_server">
+  </node>
+
+
+</launch>
